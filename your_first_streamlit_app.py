@@ -3,6 +3,7 @@ import streamlit as st
 st.title("Moja Aplikacja Streamlit")
 
 st.write("To jest bardzo ogólny szablon aplikacji stworzony w Streamlit.")
+st.markdown("to jest przykładowy tekst napisany w markdownie *ten sie chwieje*, a ten jest **pogrubiony**")
 
 st.sidebar.header("Menu")
 option = st.sidebar.selectbox("Wybierz opcję:", ["Opcja 1", "Opcja 2", "Opcja 3"])
